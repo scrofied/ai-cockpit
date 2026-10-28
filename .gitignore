@@ -1,0 +1,30 @@
+# ==== 私有：本机配置（含路径 / 账号 / poi / 密钥）====
+config.json
+
+# ==== 私有：我自己的业务插件（不进开源仓库）====
+agents/store/
+agents/hire/
+agents/console/
+agents/invest/
+agents/content/
+agents/train/
+agents/kb/
+
+# ==== 运行产物（含真实业务数据）====
+agents/*/out.json
+agents/*/run.log
+agents/*/.cache.json
+agents/*/.stores.json
+state.json
+state.js
+audit.jsonl
+python.txt
+
+# ==== 通用 ====
+*.log
+*.tmp
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
