@@ -1,0 +1,32 @@
+{
+ "_readme": "复制这个文件为 config.json，填你自己的路径。留空的项，对应插件会显示「未接入」，不会报错。config.json 不要提交到 git。",
+ "python": "",
+ "paths": {
+  "store_meituan": "",
+  "hire_boss_logs": "",
+  "console_tasks": "",
+  "invest_eth_data": "",
+  "content_aihot": "",
+  "content_archive": "",
+  "train_outputs": "",
+  "train_decks": "",
+  "train_prod": "",
+  "kb_root": "",
+  "kb_questions": "",
+  "kb_skills": ""
+ },
+ "store": {
+  "_readme": "美团门店：每个店一个 ego Space + 一个独立浏览器 profile。poi 是门店在美团后台的 poiId。",
+  "stores": [
+   { "name": "门店A", "space": "mt-a", "poi": "" },
+   { "name": "门店B", "space": "mt-b", "poi": "" }
+  ],
+  "pay_url": "",
+  "target_weekday": 3000,
+  "target_weekend": 5000
+ },
+ "ui": {
+  "title": "ONE MAN COMPANY",
+  "tabs": ["总览", "门店", "内容", "招聘", "课程", "指挥台", "投资"]
+ }
+}

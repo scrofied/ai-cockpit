@@ -1,0 +1,16 @@
+{
+ "date": "2026-10-28",
+ "target": 2000,
+ "stores": [
+  {
+   "name": "门店A",
+   "amount": 1240.0,
+   "coupons": 12
+  },
+  {
+   "name": "门店B",
+   "amount": 890.0,
+   "coupons": 9
+  }
+ ]
+}

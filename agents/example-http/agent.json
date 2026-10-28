@@ -1,0 +1,49 @@
+{
+ "id": "example-http",
+ "name": "接口型",
+ "icon": "↗",
+ "color": "#ff8f8f",
+ "order": 91,
+ "interval": 120,
+ "timeout": 20,
+ "metric": {
+  "label": "最新价",
+  "unit": "$"
+ },
+ "actions": [
+  {
+   "id": "refresh",
+   "label": "拉一次",
+   "confirm": "重新请求接口？"
+  }
+ ],
+ "demo": {
+  "status": "ok",
+  "metric": {
+   "label": "最新价",
+   "value": 80568,
+   "unit": "$"
+  },
+  "sub": "公开行情接口 · 无需 key",
+  "items": [
+   {
+    "name": "BTC",
+    "value": "$80,568",
+    "note": "24h -0.02%",
+    "tone": "ok"
+   },
+   {
+    "name": "ETH",
+    "value": "$2,351",
+    "note": "24h +0.17%",
+    "tone": "ok"
+   },
+   {
+    "name": "SOL",
+    "value": "$102",
+    "note": "24h +0.22%",
+    "tone": "ok"
+   }
+  ]
+ }
+}

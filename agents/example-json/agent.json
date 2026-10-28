@@ -1,0 +1,49 @@
+{
+ "id": "example-json",
+ "name": "文件型",
+ "icon": "▤",
+ "color": "#8fb8ff",
+ "order": 90,
+ "interval": 120,
+ "timeout": 15,
+ "metric": {
+  "label": "今日核销",
+  "unit": "¥"
+ },
+ "actions": [
+  {
+   "id": "refresh",
+   "label": "重读文件",
+   "confirm": "重新读取 sample.json？"
+  }
+ ],
+ "demo": {
+  "status": "ok",
+  "metric": {
+   "label": "今日核销",
+   "value": 2130,
+   "unit": "¥"
+  },
+  "sub": "2 店 · 21 券",
+  "items": [
+   {
+    "name": "门店A",
+    "value": "¥1,240",
+    "note": "12 券",
+    "tone": "ok"
+   },
+   {
+    "name": "门店B",
+    "value": "¥890",
+    "note": "9 券",
+    "tone": "ok"
+   },
+   {
+    "name": "目标完成",
+    "value": "107%",
+    "note": "目标 ¥2,000",
+    "tone": "ok"
+   }
+  ]
+ }
+}

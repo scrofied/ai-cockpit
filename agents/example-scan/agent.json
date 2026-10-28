@@ -1,0 +1,49 @@
+{
+ "id": "example-scan",
+ "name": "目录型",
+ "icon": "◎",
+ "color": "#e8c07a",
+ "order": 92,
+ "interval": 300,
+ "timeout": 20,
+ "metric": {
+  "label": "待处理",
+  "unit": "个"
+ },
+ "actions": [
+  {
+   "id": "refresh",
+   "label": "重扫目录",
+   "confirm": "重新扫描 inbox 目录？"
+  }
+ ],
+ "demo": {
+  "status": "ok",
+  "metric": {
+   "label": "待处理",
+   "value": 7,
+   "unit": "个"
+  },
+  "sub": "inbox 目录 · 最近 1 个今天",
+  "items": [
+   {
+    "name": "待处理",
+    "value": "7",
+    "note": "inbox 文件数",
+    "tone": "ok"
+   },
+   {
+    "name": "今日新增",
+    "value": "1",
+    "note": "按修改时间",
+    "tone": "ok"
+   },
+   {
+    "name": "最旧",
+    "value": "6 天前",
+    "note": "考虑清理",
+    "tone": "warn"
+   }
+  ]
+ }
+}

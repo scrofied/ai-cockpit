@@ -1,0 +1,28 @@
+{
+ "id": "hello",
+ "name": "示例",
+ "icon": "★",
+ "color": "#7dd3fc",
+ "order": 0,
+ "interval": 60,
+ "timeout": 15,
+ "metric": { "label": "今日处理", "unit": "件" },
+ "actions": [
+  {
+   "id": "ping",
+   "label": "测试动作",
+   "confirm": "这是一个示例动作，点确定会返回一条消息。"
+  }
+ ],
+ "demo": {
+  "status": "ok",
+  "metric": { "label": "今日处理", "value": 128, "unit": "件" },
+  "sub": "示例数据 · demo 模式专用",
+  "items": [
+   { "name": "队列", "value": "12", "note": "待处理", "tone": "warn" },
+   { "name": "成功率", "value": "98.4%", "note": "近 24h", "tone": "ok" },
+   { "name": "平均耗时", "value": "1.8s", "note": "单件", "tone": "ok" },
+   { "name": "异常", "value": "0", "note": "今日", "tone": "ok" }
+  ]
+ }
+}
